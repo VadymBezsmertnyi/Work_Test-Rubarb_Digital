@@ -17,13 +17,22 @@
 }
 
 #opacity {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 1920px;
     height: 677px;
     background-color: #201f1f;
     opacity: 0.8;
+    position: absolute;
+    display: inline-flex;
+    vertical-align: top;
+}
+
+#contact,
+#feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
 }
 
 #logoFooter,
