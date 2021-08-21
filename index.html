@@ -1,14 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>«Frontend» | сайт разработан в Rubarb digital</title>
+    <link rel="stylesheet" href="css\other.css"> <!-- Style web other -->
+    <link rel="stylesheet" href="css\header.css"> <!-- Style header -->
+    <link rel="stylesheet" href="css\contentSlider.css"> <!-- Style content slyles -->
+    <link rel="stylesheet" href="css\thoughts.css"> <!-- Thoughts styles -->
+    <link rel="stylesheet" href="css\imgJSAndFeaturesDeveloper.css"> <!-- imgJS and FeaturesDeveloper style -->
+    <link rel="stylesheet" href="css\footer.css"> <!-- Footer style -->
 </head>
-<body>
-    
 
-    
+<body>
+    <div id="header">
+        <img class="imgSlider" src="/img/photo/photo_1.jpg" alt="photo_1.jpg">
+        <img class="imgSlider hide" src="/img/photo/photo_2.jpg" alt="photo_2.jpg">
+        <img class="imgSlider hide" src="/img/photo/photo_3.jpg" alt="photo_3.jpg">
+        <div id="logoMenu">
+            <img src="/img/img/logo_white.png" alt="logo_colored.png">
+            <div id="menu">
+                <a class="fontMenu" href="#">ПЕРВЫЙ ЭКРАН</a>
+                <a class="fontMenu" href="#">ВСТУПЛЕНИЕ</a>
+                <a class="fontMenu" href="#">ИНФОГРАФИКА</a>
+                <a class="fontMenu" href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
+                <a class="fontMenu" href="#">КОНТАКТЫ</a>
+            </div>
+            <div id="phone">
+                <a class="fontContact" href="#">+38 (096) 622 86 13</a>
+                <a class="fontContact" href="#">+38 (096) 622 86 13</a>
+            </div>
+            <div id="lang">
+                <a class="fontContact" href="#">EN</a>
+                <div></div>
+                <a class="fontContact" href="#">UA</a>
+                <div></div>
+                <a class="fontContact" href="#">RU</a>
+            </div>
+        </div>
+        <div id="otherSlider">
+            <div id="leftButton">
+                <img src="/img/icons/left_button.png" alt="left_button.png">
+            </div>
+            <div id="centerSlider">
+                <img src="/img/img/logo_white.png" alt="logo_white.png">
+                <p>Frontend-разработчики</p>
+                <p>должны быть в теме всего</p>
+                <div>
+                    <button>да, должны</button>
+                    <button>конечно, должны</button>
+                </div>
+            </div>
+            <div id="rightButton">
+                <img src="/img/icons/right_button.png" alt="right_button.png">
+            </div>
+        </div>
+        <div id="indicator">
+            <div class="indicatorShow"></div>
+            <div class="indicatorHide"></div>
+            <div class="indicatorHide"></div>
+        </div>
+    </div>
+
+    <div id="thoughts">
+        <div id="thoughtsLogo">
+            <img src="/img/img/logo_colored.png" alt="/logo_colored.png">
+            <p>Мысли Криса Койера</p>
+        </div>
+        <div id="thoughtsText">
+            <p>Одна из мыслей, которая поселилась в моей голове: должен ли frontend- разработчик быть в курсе всего?</p>
+            <p>В общем смысле, frontend-разработчик может использоваться и на других рабочих местах. Вся команда
+                разработчиков заканчивает разговор на frontend-разработчике. В этом смысл моей идеи.</p>
+            <p>Frontend-разработчики создают те вещи, с которыми будут взаимодействовать люди. Все этапы разработки
+                проходят вместе с frontend-разработчиком. Возможно, именно поэтому это такая забавная работа!</p>
+            <p>Поскольку frontend-разработчик занимает центральное место в цепочке разработки, и при этом мы имеем дело
+                с большим количеством разных специалистов, мы должны понимать их работу и иногда подсказывать, что и как
+                сделать лучше.</p>
+            <div>Frontend-разработчик должен разбираться в дизайне</div>
+            <p>Если frontend-разработчик не является сам по себе дизайнером, он должен знать, насколько важен дизайн. Он
+                должен иметь хороший вкус. Он должен знать об инструментах, участвующих непосредственно в разработке.
+            </p>
+            <p>Frontend-разработчик должен разбираться в работе серверной части (backend)</p>
+            <p>Даже если вы и не backend-разработчик, то вы явно осознаёте всю важность серверной части. Вы понимаете, с
+                чем взаимодействует backend, что передается на сервер, а что нет. Вы знаете об обязанностях
+                backend-разработчика. Вы понимаете, какой язык используется на сервере, и при этом должны уметь
+                объяснить, что должен дать вам backend и что нужно от серверной части frontend-а.</p>
+            <p>Frontend-разработчик должен разбираться в работе сетей</p>
+            <p>Frontend-разработчик понимает, что сайты располагаются в интернете, данные передаются по сети, и что сеть
+                — это дикое и непредсказуемое. Необходимо понимать, какие бывают сети, как они работают, и насколько они
+                бывают быстрые и надежные.</p>
+        </div>
+    </div>
+
+    <div id="imgJS">
+        <img src="/img/img/imgJS_1.png" alt="imgJS_1.png">
+        <img src="/img/img/imgJS_2.png" alt="imgJS_2.png">
+        <img src="/img/img/imgJS_3.png" alt="imgJS_3.png">
+    </div>
+
+    <div id="featuresDeveloper">
+        <div>Frontend-разработчик должен разбираться
+            в производительности</div>
+        <div class="parthFeaturesDeveloper">
+            <div class="otherFeaturesDeveloper">
+                <div>Performance Matters</div>
+                <p>производительность
+                    имеет важное место
+                    в успехе вашего проекта</p>
+                <button>подробнее</button>
+            </div>
+            <img src="/img/img/imgFeaturesDeveloper_1.png" alt="imgFeaturesDeveloper_1.png">
+        </div>
+        <div>
+            <div class="parthFeaturesDeveloper">
+                <img src="/img/img/imgFeaturesDeveloper_2.png" alt="imgFeaturesDeveloper_2.png">
+                <div class="otherFeaturesDeveloper">
+                    <div>Performance Matters</div>
+                    <p>производительность
+                        имеет важное место
+                        в успехе вашего проекта</p>
+                    <button>подробнее</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerContact">
+        <div id="opacity">
+            <div id="contact">
+                <p>контакты</p>
+                <div>
+                    <img src="/img/icons/location.png" alt="location.png">
+                    <p>18000, Украина, г. Черкассы,
+                        ул. Героев Сталинграда 42/1</p>
+                </div>
+                <div>
+                    <img src="/img/icons/phone.png" alt="phone.png">
+                    <p>+38 (096) 622 86 13</p>
+                    <p>+38 (096) 622 86 13</p>
+                </div>
+                <div>
+                    <img src="/img/icons/email.png" alt="email.png">
+                    <p>web@rubarbs.com</p>
+                </div>
+                <div>
+                    <img src="/img/icons/internet.png" alt="internet.png">
+                    <p>rubarbs.com</p>
+                </div>
+            </div>
+            <div id="feedback">
+                <form action="#" method="POST">
+                    <p>напишите нам</p>
+                    <div>
+                        <input type="name">
+                        <input type="phone">
+                        <input type="email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div>
+                        <button>отправить</button>
+                        <p>Спасибо за сообщение! 
+                            Мы обязательно  свяжемся с Вами.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="logoFooter">
+            <img class="logoFooter" src="/img/img/logo_colored.png" alt="/logo_colored.png">
+            <div>
+                <img src="/img/icons/youtoobeBlack.png" alt="youtoobeBlack.png">
+                <img src="/img/icons/facebookBlack.png" alt="facebookBlack.png">
+                <img src="/img/icons/twitterBlack.png" alt="twitterBlack.png">
+            </div>
+        </div>
+        <div id="textFooter">
+            © 2017 «Frontend» |  сайт разработан в Rubarb digital
+        </div>
+    </div>
+
 </body>
+
 </html>

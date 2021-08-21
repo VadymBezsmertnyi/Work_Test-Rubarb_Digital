@@ -1,0 +1,39 @@
+#footerContact {
+    width: 1920px;
+    height: 677px;
+    position: relative;
+    display: inline-flex;
+    vertical-align: top;
+    background: rgba(0, 0, 0, 0.76) url(/img/img/imgFooter.png);
+}
+
+#contact div {
+    display: flex;
+    align-items: center;
+}
+
+#footer{
+    width: 1920px;
+}
+
+#opacity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 677px;
+    background-color: #201f1f;
+    opacity: 0.8;
+}
+
+#logoFooter,
+#textFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoFooter {
+    width: 168px;
+    height: 81px;
+}

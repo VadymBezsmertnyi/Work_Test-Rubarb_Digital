@@ -1,0 +1,50 @@
+#otherSlider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1921px;
+    height: 87px;
+
+    position: absolute;
+    top: 50%;
+}
+
+#centerSlider img {
+    width: 565px;
+    height: 271px;
+}
+
+#centerSlider p{
+    text-transform: uppercase;
+}
+
+#leftButton {
+    padding-left: 21px;
+}
+
+#rightButton {
+    padding-right: 21px;
+}
+
+#indicator {
+    display: flex;
+    justify-content: center;
+    width: 1921px;
+    height: 2px;
+    position: absolute;
+    top: 97%;
+}
+
+.indicatorHide {
+    width: 49px;
+    height: 1px;
+    background-color: #bab8b2;
+    margin: 5px;
+}
+
+.indicatorShow{
+    width: 49px;
+    height: 2px;
+    background-color: #bab8b2;
+    margin: 5px;
+}

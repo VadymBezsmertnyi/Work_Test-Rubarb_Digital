@@ -1,0 +1,30 @@
+#imgJS {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1925px;
+    height: 458px;
+    background-color: #f4f4f4;
+}
+
+#featuresDeveloper {
+    width: 1925px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parthFeaturesDeveloper {
+    display: flex;
+}
+
+.parthFeaturesDeveloper img {
+    width: 793px;
+    height: 518px;
+}
+
+.otherFeaturesDeveloper div {
+    width: 473px;
+    height: 151px;
+    border: 3px solid #53d0fb;
+}
