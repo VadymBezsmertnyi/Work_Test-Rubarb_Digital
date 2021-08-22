@@ -9,13 +9,59 @@
     top: 50%;
 }
 
+#centerSlider {
+    width: 590px;
+}
+
 #centerSlider img {
     width: 565px;
     height: 271px;
 }
 
-#centerSlider p{
+#centerSlider p {
+    text-align: center;
     text-transform: uppercase;
+}
+
+.centerSliderPTop {
+    color: #ffffff;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 74px;
+    margin-bottom: 0;
+    font-size: 48px;
+}
+
+.centerSliderPBotton {
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 8px;
+    margin-bottom: 58px;
+    font-size: 45px;
+}
+
+#buttomCenterSlider {
+    display: flex;
+    justify-content: center;
+}
+
+#buttomCenterSlider button {
+    border: 1px solid #ffffff25;
+    width: 226px;
+    height: 50px;
+    background-color: #02020220;
+    color: #ffffff;
+}
+
+#buttomCenterSlider button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 0;
 }
 
 #leftButton {
@@ -42,9 +88,64 @@
     margin: 5px;
 }
 
-.indicatorShow{
+.indicatorShow {
     width: 49px;
-    height: 2px;
+    height: 3px;
     background-color: #bab8b2;
     margin: 5px;
+}
+
+#share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    position: absolute;
+    top: 79%;
+    left: 94%;
+    position: fixed;
+}
+
+#share p {
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 40px;
+}
+
+#onOffAutoSlider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 95%;
+}
+
+#onOffAutoSlider button{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+
+    background-color:rgba(0, 0, 0, 0);
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    border-radius: 40px 40px 40px 40px;
+}
+
+#onOffAutoSlider button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 0;
 }

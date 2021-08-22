@@ -1,3 +1,42 @@
-.hide{
-    display: none;
+.hide {
+	display: none;
 }
+
+.imgSlider {
+    opacity: 0.5;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('/fonts/Geometria/Geometria.eot');
+	src: local('Geometria Thin'), local('Geometria-Thin'),
+		url('/fonts/Geometria/Geometria.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Geometria/Geometria.woff') format('woff'),
+		url('/fonts/Geometria/Geometria.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('/fonts/Myriad_Pro/MyriadPro-Regular.eot');
+	src: local('Geometria Thin'), local('Geometria-Thin'),
+		url('/fonts/Myriad_Pro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Myriad_Pro/MyriadPro-Regular.woff') format('woff'),
+		url('/fonts/Myriad_Pro/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+.fontGeometria {
+	font-family: 'Geometria';
+}
+
+.fontMyriad {
+	font-family: 'Myriad Pro';
+}
+

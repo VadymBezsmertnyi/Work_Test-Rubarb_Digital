@@ -5,6 +5,7 @@
     display: inline-flex;
     vertical-align: top;
     background: rgba(0, 0, 0, 0.76) url(/img/img/imgFooter.png);
+    margin-top: 220px;
 }
 
 #contact div {
@@ -29,10 +30,9 @@
 #contact,
 #feedback{
     display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
-    
+    flex-direction: column;
 }
 
 #logoFooter,
