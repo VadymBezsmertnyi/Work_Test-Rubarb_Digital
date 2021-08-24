@@ -277,7 +277,7 @@
   }
 }
 
-#textFooter p:hover {
+.textAnimation:hover {
   -webkit-animation-name: textFooterAnimation;
           animation-name: textFooterAnimation;
   -webkit-animation-duration: 0.5s;

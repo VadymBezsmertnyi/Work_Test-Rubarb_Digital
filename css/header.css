@@ -87,6 +87,13 @@ body {
     border-bottom-color: #f7b940;
 }
 
+#phoneLang{
+    width: 495px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #phone {
     width: 278px;
     display: flex;

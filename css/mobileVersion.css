@@ -1,0 +1,673 @@
+@media (min-width: 320px) and (max-width: 1100px) {
+    #header {
+        background-color: #000000;
+        width: 320px;
+        height: 363px;
+        position: relative;
+        display: inline-flex;
+        vertical-align: top;
+    }
+
+    .imgSlider {
+        width: 320px;
+    }
+
+    #centerSlider {
+        display: flex;
+        width: 590px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #centerSlider img {
+        width: 143px;
+        height: auto;
+    }
+
+    #centerSlider p {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .centerSliderPTop {
+        color: #ffffff;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        margin-top: 12px;
+        margin-bottom: 0;
+        font-size: 15px;
+        ;
+    }
+
+    .centerSliderPBotton {
+        color: #ffffff;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        margin-top: 8px;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    #buttomCenterSlider {
+        display: flex;
+        justify-content: center;
+        margin-top: 14px;
+        height: auto;
+    }
+
+    #buttomCenterSlider button {
+        border: 1px solid #ffffff25;
+        width: 138px;
+        height: auto;
+        background-color: #02020220;
+        color: #ffffff;
+    }
+
+    #logoMenu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #logoMenu img {
+        width: 126px;
+        height: auto;
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    #menu {
+        width: 142px;
+        height: 87px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 10px;
+    }
+
+    #menu a {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        height: auto;
+    }
+
+    .fontMenu {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    #phoneLang {
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #phone {
+        width: 212px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fontPhone {
+        color: #53d0fb;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        /* letter-spacing: 4.2px; */
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    #lang {
+        width: 50px;
+        display: flex;
+        padding-right: 0;
+    }
+
+    #lang p {
+        margin: 0;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    #leftButton {
+        padding-left: 4px;
+    }
+
+    #rightButton {
+        padding-right: 4px;
+    }
+
+    #otherSlider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        height: 87px;
+        position: absolute;
+        top: 50%;
+    }
+
+
+    #indicator {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        height: auto;
+        position: absolute;
+        top: 97%;
+    }
+
+    #onOffAutoSlider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 30%;
+        left: 83%;
+    }
+
+    #onOffAutoSlider button {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0);
+        width: 42px;
+        height: 42px;
+        border: 1px solid rgba(255, 255, 255, 0.205);
+        border-radius: 40px 40px 40px 40px;
+    }
+
+    #thoughts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thoughtsLogoRiver {
+        top: 0;
+        position: inherit;
+    }
+
+    .thoughtsText {
+        margin-left: 0;
+    }
+
+    #thoughtsLogo {
+        width: 320px;
+        padding: 0;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #thoughtsLogo img {
+        width: 127px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    #thoughtsLogo p {
+        margin: 0;
+        margin-top: 0;
+        width: 167px;
+        height: 31px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 44.91px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #thoughtsText {
+        width: 290px;
+    }
+
+    #thoughtsText div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 290px;
+        height: auto;
+        text-align: center;
+        text-transform: uppercase;
+        border: 4px solid #53d0fb;
+    }
+
+    #thoughtsText p {
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+    }
+
+    #thoughtsText div p {
+        width: 207px;
+        height: auto;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #imgJS {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 320px;
+        height: auto;
+        background-color: #f4f4f4;
+    }
+
+    #imgJS img {
+        width: 75px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    #featuresDeveloper {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #frontEndDev {
+        width: 320px;
+        height: 30px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 17.91px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+
+    .parthFeaturesDeveloper {
+        margin-top: 11px;
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .parthFeaturesDeveloper img {
+        width: 164px;
+        height: auto;
+    }
+
+    .imgLeft {
+        position: relative;
+        right: 12%;
+    }
+
+    .imgRight {
+        position: relative;
+        left: 6%;
+    }
+
+    .mainPLeft {
+        margin: 6px 0 0 6px;
+        width: 156px;
+        height: auto;
+        border: 3px solid #53d0fb;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 14px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 8px 10px 8px;
+        background-color: #ffffff34;
+    }
+
+    .littlePLeft {
+        padding-left: 0px;
+        width: 132px;
+        height: auto;
+        color: #000000;
+        font-family: Geometria;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        margin: 6px 0 6px 6px;
+    }
+
+    #btnLeftOFD {
+        width: 116px;
+        height: 30px;
+        font-family: "Myriad Pro";
+        font-size: 10px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 10px;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+
+    .mainPRight {
+        border: 3px solid #53d0fb;
+        width: 119px;
+        height: auto;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 14px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: right;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 8px 10px 20px;
+        background-color: #ffffff34;
+    }
+
+    .littlePRight {
+        width: 123px;
+        height: auto;
+        color: #000000;
+        font-family: Geometria;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: right;
+        margin: 9px 9px 0 9px;
+    }
+
+    #btnRightOFD {
+        width: 116px;
+        height: 30px;
+        font-family: "Myriad Pro";
+        font-size: 10px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 10px;
+        text-align: center;
+        margin-left: 13px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    #footerContact {
+        display: inline-flex;
+        justify-content: center;
+        width: 320px;
+        height: auto;
+        position: relative;
+        vertical-align: top;
+        background: rgba(0, 0, 0, 0.76) url(/img/img/imgFooter.png);
+        margin-top: 22px;
+        flex-direction: column;
+    }
+
+    #opacity {
+        width: 320px;
+        height: 100%;
+        background-color: #201f1f;
+        opacity: 0.8;
+        position: absolute;
+        display: inline-flex;
+        vertical-align: top;
+    }
+
+    #contact {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 310px;
+        height: auto;
+        margin: 5px 5px 5px 5px;
+        align-items: center;
+    }
+
+    .footerContactName {
+        color: #ffffff;
+        font-family: "Myriad Pro";
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .footerPhone {
+        margin-bottom: 0px;
+    }
+
+    .footerEmail {
+        margin-bottom: 0;
+    }
+
+    .contactIcon p {
+        margin: 0;
+        color: #ffffff;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .footerAddress {
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+
+    #feedback {
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .feedbackForm {
+        width: 320px;
+        height: auto;
+    }
+
+    .otherFeedback {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+    }
+
+    .feedbackBtn {
+        width: 144px;
+        height: 42px;
+        background-color: #53d0fb;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-size: 10px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 10px;
+        text-align: center;
+        margin: 0 0 5px 5px;
+    }
+
+    .otherFeedback input {
+        width: 91px;
+        height: auto;
+        background-color: #04001318;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 5px 5px 5px 5px;
+    }
+
+    .feedbackTextarea {
+        width: 305px;
+        height: 102px;
+        margin-top: 0px;
+        margin: 0 5px 5px 5px;
+        border: 1px solid #f5f5f5;
+        background-color: #0000001a;
+        resize: none;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .feedbackButton {
+        display: flex;
+        margin-top: 0px;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+    }
+
+    #logoFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 305px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .logoFooter {
+        width: 72px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .feedbackButton p {
+        width: 150px;
+        margin: 0;
+        margin-left: 10px;
+        color: #ffffff;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .socMobile{
+        height: 20px;
+    }
+
+    .footerIconOther {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #textFooter {
+        width: 320px;
+        display: flex;
+        margin-top: 5px;
+        color: #000000;
+        font-family: Geometria;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    #share {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        position: absolute;
+        top: 63%;
+        left: 71%;
+        position: fixed;
+    }
+
+    .textAnimation{
+        width: 110px;
+    }
+}

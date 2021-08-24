@@ -4,7 +4,7 @@ const leftButton = document.querySelector('#leftButton'),
     indicatior = document.querySelectorAll('#indicator div'),
     onOff = document.querySelectorAll('#onOffAutoSlider button');
 
-    let item = 0;
+let item = 0;
 
 function hideImg() {
     imgSlider.forEach((img, i) => {
@@ -12,26 +12,26 @@ function hideImg() {
     });
 }
 
-function showImgRight(){
-    imgSlider.forEach((img, i) =>{
-        if (img.classList.contains('hide')==false) {
-            item=i;
+function showImgRight() {
+    imgSlider.forEach((img, i) => {
+        if (img.classList.contains('hide') == false) {
+            item = i;
         }
     });
-    item+=1;
+    item += 1;
 }
 
-function showImgLeft(){
-    imgSlider.forEach((img, i) =>{
-        if (img.classList.contains('hide')==false) {
-            item=i;
+function showImgLeft() {
+    imgSlider.forEach((img, i) => {
+        if (img.classList.contains('hide') == false) {
+            item = i;
         }
     });
-    item-=1;
+    item -= 1;
 }
 
-function showHideIndicator(item){
-    indicatior.forEach((ind, i)=>{
+function showHideIndicator(item) {
+    indicatior.forEach((ind, i) => {
         ind.classList = "";
         ind.classList.add('indicatorHide');
     });
@@ -42,8 +42,8 @@ function showHideIndicator(item){
 function serRight() {
     showImgRight();
     hideImg();
-    if (item>=3) {
-        item=0;
+    if (item >= 3) {
+        item = 0;
     }
     imgSlider[item].classList.remove('hide');
     showHideIndicator(item);
@@ -57,8 +57,8 @@ rightButton.addEventListener('click', () => {
 leftButton.addEventListener('click', () => {
     showImgLeft();
     hideImg();
-    if (item<0) {
-        item=2;
+    if (item < 0) {
+        item = 2;
     }
     showHideIndicator(item);
     addAnimationLeft(item);
@@ -70,36 +70,41 @@ let auto = setInterval(function () {
 }, 5000);
 
 function onOffHide() {
-    onOff.forEach(btn =>{
+    onOff.forEach(btn => {
         btn.classList.remove('hide');
     });
 }
 
-onOff.forEach((btn, i) =>{
-    btn.addEventListener('click', ()=>{
+onOff.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
         onOffHide();
         btn.classList.add('hide');
-        if (i==0) {
+        if (i == 0) {
             let auto = setInterval(function () {
                 serRight();
             }, 5000);
         }
-        else{
+        else {
             clearInterval(auto);
         }
     });
 });
 
-function addAnimation(item){
+function addAnimation(item) {
     imgSlider[item].classList.remove('sliderHideAnimation');
     imgSlider[item].classList.add('sliderShowAnimation');
-    setTimeout(function () {
+    let timeAnimation = setTimeout(function () {
         imgSlider[item].classList.remove('sliderShowAnimation');
         imgSlider[item].classList.add('sliderHideAnimation');
-    },4500);
+        if (onOff[1].classList.contains('hide') == true) {
+            imgSlider[item].classList.remove('sliderHideAnimation');
+        }
+    }, 4500);
+
+    console.log(onOff[1].classList.contains('hide'));
 }
 
-function addAnimationLeft(){
+function addAnimationLeft() {
     imgSlider[item].classList.remove('sliderHideAnimation');
     imgSlider[item].classList.add('sliderShowAnimation');
 }

@@ -145,7 +145,7 @@
     }
 }
 
-#textFooter p:hover {
+.textAnimation:hover {
     animation-name: textFooterAnimation;
     animation-duration: 0.5s;
     background-color: black;
