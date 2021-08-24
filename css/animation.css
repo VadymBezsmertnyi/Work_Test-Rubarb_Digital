@@ -1,0 +1,190 @@
+.animationButton {
+  background-color: #53d0fb;
+}
+
+.animationButton:hover {
+  -webkit-animation-name: btnFooterAnimation;
+          animation-name: btnFooterAnimation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: black;
+  color: white;
+}
+
+.animationButtonReverse {
+  -webkit-animation-name: btnFooterAnimationReverse;
+          animation-name: btnFooterAnimationReverse;
+}
+
+@-webkit-keyframes btnFooterAnimation {
+  from {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+  10% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), to(#909090));
+    background: linear-gradient(0deg, #53d0fb 0%, #909090 100%);
+  }
+  50% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(55%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 55%);
+  }
+  60% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(12%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 12%);
+  }
+  70% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), to(black));
+    background: linear-gradient(0deg, #595959 0%, black 100%);
+  }
+  80% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(41%, black));
+    background: linear-gradient(0deg, #595959 0%, black 41%);
+  }
+  to {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(0%, black));
+    background: linear-gradient(0deg, #595959 0%, black 0%);
+  }
+}
+
+@keyframes btnFooterAnimation {
+  from {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+  10% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), to(#909090));
+    background: linear-gradient(0deg, #53d0fb 0%, #909090 100%);
+  }
+  50% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(55%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 55%);
+  }
+  60% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(12%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 12%);
+  }
+  70% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), to(black));
+    background: linear-gradient(0deg, #595959 0%, black 100%);
+  }
+  80% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(41%, black));
+    background: linear-gradient(0deg, #595959 0%, black 41%);
+  }
+  to {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(0%, black));
+    background: linear-gradient(0deg, #595959 0%, black 0%);
+  }
+}
+
+@-webkit-keyframes btnFooterAnimationReverse {
+  from {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(0%, black));
+    background: linear-gradient(0deg, #595959 0%, black 0%);
+  }
+  10% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(41%, black));
+    background: linear-gradient(0deg, #595959 0%, black 41%);
+  }
+  50% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), to(black));
+    background: linear-gradient(0deg, #595959 0%, black 100%);
+  }
+  60% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(12%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 12%);
+  }
+  70% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(55%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 55%);
+  }
+  80% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), to(#909090));
+    background: linear-gradient(0deg, #53d0fb 0%, #909090 100%);
+  }
+  to {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+}
+
+@keyframes btnFooterAnimationReverse {
+  from {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(0%, black));
+    background: linear-gradient(0deg, #595959 0%, black 0%);
+  }
+  10% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), color-stop(41%, black));
+    background: linear-gradient(0deg, #595959 0%, black 41%);
+  }
+  50% {
+    color: #ffffff;
+    background: #595959;
+    background: -webkit-gradient(linear, left bottom, left top, from(#595959), to(black));
+    background: linear-gradient(0deg, #595959 0%, black 100%);
+  }
+  60% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(12%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 12%);
+  }
+  70% {
+    color: #ffffff;
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(55%, #595959));
+    background: linear-gradient(0deg, #53d0fb 0%, #595959 55%);
+  }
+  80% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), to(#909090));
+    background: linear-gradient(0deg, #53d0fb 0%, #909090 100%);
+  }
+  to {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+}
+/*# sourceMappingURL=animation.css.map */
