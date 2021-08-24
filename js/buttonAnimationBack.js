@@ -1,5 +1,7 @@
 const btn = document.querySelectorAll('.animationButton'),
-feedbackBtn = document.querySelector('.feedbackBtn');
+feedbackBtn = document.querySelector('.feedbackBtn'),
+sliderBuutonLeft = document.querySelector('#sliderBuutonLeft'),
+sliderBuutonRight = document.querySelector('#sliderBuutonRight');
 
 console.log(feedbackBtn);
 
@@ -11,6 +13,15 @@ btn.forEach(btn =>{
 });
 
 feedbackBtn.addEventListener('mouseout', ()=>{
-    console.log('GOOD!');
     feedbackBtn.classList.add('animationButtonFeedbackReverse');
+});
+
+sliderBuutonLeft.addEventListener('mouseout', ()=>{
+    console.log('GOOD!');
+    sliderBuutonLeft.classList.add('sliderBuutonLeftReverse');
+});
+
+sliderBuutonRight.addEventListener('mouseout', ()=>{
+    console.log('GOOD!');
+    sliderBuutonRight.classList.add('sliderBuutonRightReverse');
 });

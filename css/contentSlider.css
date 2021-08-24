@@ -58,12 +58,6 @@
     color: #ffffff;
 }
 
-#buttomCenterSlider button:hover {
-    background-color: #ffffff;
-    color: #000000;
-    border: 0;
-}
-
 #leftButton {
     padding-left: 21px;
 }

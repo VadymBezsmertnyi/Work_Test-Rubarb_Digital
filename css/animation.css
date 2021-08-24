@@ -452,4 +452,378 @@
     background: linear-gradient(0deg, black 96%, white 100%);
   }
 }
+
+#sliderBuutonLeft:hover {
+  -webkit-animation-name: sliderBuutonLeftAnimation;
+          animation-name: sliderBuutonLeftAnimation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: #ffffff;
+  color: #000000;
+  border: 0;
+}
+
+.sliderBuutonLeftReverse {
+  -webkit-animation-name: sliderBuutonLeftAnimationReverse;
+          animation-name: sliderBuutonLeftAnimationReverse;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: #02020220;
+  color: #ffffff;
+}
+
+@-webkit-keyframes sliderBuutonLeftAnimation {
+  from {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(0%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 0%);
+  }
+  25% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(5%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 5%);
+  }
+  35% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(12%, white), color-stop(27%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 12%, rgba(0, 0, 0, 0.25) 27%);
+  }
+  65% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%, white), color-stop(61%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 41%, rgba(0, 0, 0, 0.25) 61%);
+  }
+  75% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(63%, white), color-stop(78%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 63%, rgba(0, 0, 0, 0.25) 78%);
+  }
+  85% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(85%, white), color-stop(94%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 85%, rgba(0, 0, 0, 0.25) 94%);
+  }
+  to {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(95%, white), to(rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 95%, rgba(0, 0, 0, 0.25) 100%);
+  }
+}
+
+@keyframes sliderBuutonLeftAnimation {
+  from {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(0%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 0%);
+  }
+  25% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(5%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 5%);
+  }
+  35% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(12%, white), color-stop(27%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 12%, rgba(0, 0, 0, 0.25) 27%);
+  }
+  65% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%, white), color-stop(61%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 41%, rgba(0, 0, 0, 0.25) 61%);
+  }
+  75% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(63%, white), color-stop(78%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 63%, rgba(0, 0, 0, 0.25) 78%);
+  }
+  85% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(85%, white), color-stop(94%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 85%, rgba(0, 0, 0, 0.25) 94%);
+  }
+  to {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(95%, white), to(rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 95%, rgba(0, 0, 0, 0.25) 100%);
+  }
+}
+
+@-webkit-keyframes sliderBuutonLeftAnimationReverse {
+  from {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(95%, white), to(rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 95%, rgba(0, 0, 0, 0.25) 100%);
+  }
+  25% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(85%, white), color-stop(94%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 85%, rgba(0, 0, 0, 0.25) 94%);
+  }
+  35% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(63%, white), color-stop(78%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 63%, rgba(0, 0, 0, 0.25) 78%);
+  }
+  65% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%, white), color-stop(61%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 41%, rgba(0, 0, 0, 0.25) 61%);
+  }
+  75% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(12%, white), color-stop(27%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 12%, rgba(0, 0, 0, 0.25) 27%);
+  }
+  85% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(5%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 5%);
+  }
+  to {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(0%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 0%);
+  }
+}
+
+@keyframes sliderBuutonLeftAnimationReverse {
+  from {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(95%, white), to(rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 95%, rgba(0, 0, 0, 0.25) 100%);
+  }
+  25% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(85%, white), color-stop(94%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 85%, rgba(0, 0, 0, 0.25) 94%);
+  }
+  35% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(63%, white), color-stop(78%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 63%, rgba(0, 0, 0, 0.25) 78%);
+  }
+  65% {
+    color: black;
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%, white), color-stop(61%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 41%, rgba(0, 0, 0, 0.25) 61%);
+  }
+  75% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(12%, white), color-stop(27%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 12%, rgba(0, 0, 0, 0.25) 27%);
+  }
+  85% {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(5%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 5%);
+  }
+  to {
+    background: white;
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(0%, rgba(0, 0, 0, 0.25)));
+    background: linear-gradient(90deg, white 0%, rgba(0, 0, 0, 0.25) 0%);
+  }
+}
+
+#sliderBuutonRight:hover {
+  -webkit-animation-name: sliderBuutonRightAnimation;
+          animation-name: sliderBuutonRightAnimation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: #ffffff;
+  color: #000000;
+  border: 0;
+}
+
+.sliderBuutonRightReverse {
+  -webkit-animation-name: sliderBuutonRightAnimationReverse;
+          animation-name: sliderBuutonRightAnimationReverse;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: #02020220;
+  color: #ffffff;
+}
+
+@-webkit-keyframes sliderBuutonRightAnimation {
+  from {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 100%, white 100%);
+  }
+  25% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(89%, rgba(0, 0, 0, 0.25)), color-stop(93%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 89%, white 93%);
+  }
+  35% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(69%, rgba(0, 0, 0, 0.25)), color-stop(76%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 69%, white 76%);
+  }
+  65% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(47%, rgba(0, 0, 0, 0.25)), color-stop(53%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 47%, white 53%);
+  }
+  75% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(22%, rgba(0, 0, 0, 0.25)), color-stop(32%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 22%, white 32%);
+  }
+  85% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(0, 0, 0, 0.25)), color-stop(12%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 8%, white 12%);
+  }
+  to {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), color-stop(2%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, white 2%);
+  }
+}
+
+@keyframes sliderBuutonRightAnimation {
+  from {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 100%, white 100%);
+  }
+  25% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(89%, rgba(0, 0, 0, 0.25)), color-stop(93%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 89%, white 93%);
+  }
+  35% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(69%, rgba(0, 0, 0, 0.25)), color-stop(76%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 69%, white 76%);
+  }
+  65% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(47%, rgba(0, 0, 0, 0.25)), color-stop(53%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 47%, white 53%);
+  }
+  75% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(22%, rgba(0, 0, 0, 0.25)), color-stop(32%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 22%, white 32%);
+  }
+  85% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(0, 0, 0, 0.25)), color-stop(12%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 8%, white 12%);
+  }
+  to {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), color-stop(2%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, white 2%);
+  }
+}
+
+@-webkit-keyframes sliderBuutonRightAnimationReverse {
+  from {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), color-stop(2%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, white 2%);
+  }
+  25% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(0, 0, 0, 0.25)), color-stop(12%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 8%, white 12%);
+  }
+  35% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(22%, rgba(0, 0, 0, 0.25)), color-stop(32%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 22%, white 32%);
+  }
+  65% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(47%, rgba(0, 0, 0, 0.25)), color-stop(53%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 47%, white 53%);
+  }
+  75% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(69%, rgba(0, 0, 0, 0.25)), color-stop(76%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 69%, white 76%);
+  }
+  85% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(89%, rgba(0, 0, 0, 0.25)), color-stop(93%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 89%, white 93%);
+  }
+  to {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 100%, white 100%);
+  }
+}
+
+@keyframes sliderBuutonRightAnimationReverse {
+  from {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.25)), color-stop(2%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, white 2%);
+  }
+  25% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(0, 0, 0, 0.25)), color-stop(12%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 8%, white 12%);
+  }
+  35% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(22%, rgba(0, 0, 0, 0.25)), color-stop(32%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 22%, white 32%);
+  }
+  65% {
+    color: black;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(47%, rgba(0, 0, 0, 0.25)), color-stop(53%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 47%, white 53%);
+  }
+  75% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(69%, rgba(0, 0, 0, 0.25)), color-stop(76%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 69%, white 76%);
+  }
+  85% {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(89%, rgba(0, 0, 0, 0.25)), color-stop(93%, white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 89%, white 93%);
+  }
+  to {
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(0, 0, 0, 0.25)), to(white));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 100%, white 100%);
+  }
+}
 /*# sourceMappingURL=animation.css.map */
