@@ -95,7 +95,9 @@
                 Поскольку frontend-разработчик занимает центральное место в цепочке разработки, и при этом мы имеем дело
                 с большим количеством разных специалистов, мы должны понимать их работу и иногда подсказывать, что и как
                 сделать лучше.</p>
-            <div><p>Frontend-разработчик должен разбираться в дизайне</p></div>
+            <div>
+                <p>Frontend-разработчик должен разбираться в дизайне</p>
+            </div>
             <p>Если frontend-разработчик не является сам по себе дизайнером, он должен знать, насколько важен дизайн. Он
                 должен иметь хороший вкус. Он должен знать об инструментах, участвующих непосредственно в разработке.
                 <br>
@@ -156,39 +158,40 @@
     <div id="footerContact">
         <div id="opacity"></div>
         <div id="contact">
-            <p>контакты</p>
-            <div>
+            <p class="footerContactName">контакты</p>
+            <div class="contactIcon footerAddress">
                 <img src="/img/icons/location.png" alt="location.png">
                 <p>18000, Украина, г. Черкассы,
                     ул. Героев Сталинграда 42/1</p>
             </div>
-            <div>
+            <div class="contactIcon footerPhone">
                 <img src="/img/icons/phone.png" alt="phone.png">
-                <p>+38 (096) 622 86 13</p>
-                <p>+38 (096) 622 86 13</p>
+                <div class="phoneNumber">
+                    <p>+38 (096) 622 86 13</p>
+                    <p>+38 (096) 622 86 13</p>
+                </div>
             </div>
-            <div>
+            <div  class="contactIcon footerEmail">
                 <img src="/img/icons/email.png" alt="email.png">
                 <p>web@rubarbs.com</p>
             </div>
-            <div>
+            <div  class="contactIcon">
                 <img src="/img/icons/internet.png" alt="internet.png">
                 <p>rubarbs.com</p>
             </div>
         </div>
         <div id="feedback">
-            <form action="#" method="POST">
-                <p>напишите нам</p>
-                <div>
-                    <input type="name">
-                    <input type="phone">
-                    <input type="email">
+            <form class="feedbackForm" action="#" method="POST">
+                <p class="footerContactName">напишите нам</p>
+                <div class="otherFeedback">
+                    <input type="name" placeholder="имя">
+                    <input type="phone" placeholder="телефон">
+                    <input type="email" placeholder="email">
                 </div>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <div>
-                    <button>отправить</button>
-                    <p>Спасибо за сообщение!
-                        Мы обязательно свяжемся с Вами.</p>
+                <textarea class="feedbackTextarea" name="" id="" cols="30" rows="10" placeholder="сообщение"></textarea>
+                <div class="feedbackButton">
+                    <button class="feedbackBtn animationButton">отправить</button>
+                    <p>Спасибо за сообщение! <br> Мы обязательно свяжемся с Вами.</p>
                 </div>
             </form>
         </div>
@@ -199,12 +202,12 @@
             <img class="logoFooter" src="/img/img/logo_colored.png" alt="/logo_colored.png">
             <div>
                 <img src="/img/icons/youtoobeBlack.png" alt="youtoobeBlack.png">
-                <img src="/img/icons/facebookBlack.png" alt="facebookBlack.png">
+                <img class="footerIconOther" src="/img/icons/facebookBlack.png" alt="facebookBlack.png">
                 <img src="/img/icons/twitterBlack.png" alt="twitterBlack.png">
             </div>
         </div>
         <div id="textFooter">
-            © 2017 «Frontend» | сайт разработан в Rubarb digital
+            © 2017 «Frontend» | сайт разработан в <p>Rubarb digital</p>
         </div>
     </div>
 
