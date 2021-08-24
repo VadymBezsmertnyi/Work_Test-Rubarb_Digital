@@ -96,3 +96,96 @@
         background: linear-gradient(0deg, rgba(83, 208, 251, 1) 0%, rgba(83, 208, 251, 1) 0%);
     }
 }
+
+.animationButtonFeedback {
+    background-color: #53d0fb;
+}
+
+.animationButtonFeedback:hover {
+    animation-name: btnFeedbackAnimation;
+    animation-duration: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+@keyframes btnFeedbackAnimation {
+    from {
+        background: rgb(83, 208, 251);
+        background: linear-gradient(0deg, rgba(83, 208, 251, 1) 0%, rgba(83, 208, 251, 1) 0%);
+    }
+
+    10% {
+        background: rgb(83, 208, 251);
+        background: linear-gradient(0deg, rgba(83, 208, 251, 1) 73%, rgba(147, 227, 255, 1) 76%);
+    }
+
+    30% {
+        background: rgb(83, 208, 251);
+        background: linear-gradient(0deg, rgba(83, 208, 251, 1) 31%, rgba(147, 227, 255, 1) 40%);
+    }
+
+    60% {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 83%, rgba(255, 255, 255, 1) 96%);
+    }
+
+    70% {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 46%, rgba(255, 255, 255, 1) 59%);
+    }
+
+    80% {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 7%, rgba(255, 255, 255, 1) 28%);
+    }
+
+    to {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 0%, rgba(255, 255, 255, 1) 0%);
+    }
+}
+
+#textFooter p:hover {
+    animation-name: textFooterAnimation;
+    animation-duration: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+@keyframes textFooterAnimation {
+    from {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 0%);
+    }
+
+    10% {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 15%, rgba(255, 255, 255, 1) 16%);
+    }
+
+    30% {
+        color:white;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 26%, rgba(255, 255, 255, 1) 29%);
+    }
+
+    60% {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(255, 255, 255, 1) 44%);
+    }
+
+    70% {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 59%, rgba(255, 255, 255, 1) 63%);
+    }
+
+    80% {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 83%, rgba(255, 255, 255, 1) 88%);
+    }
+
+    to {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    }
+}

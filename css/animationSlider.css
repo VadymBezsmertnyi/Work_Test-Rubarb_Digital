@@ -1,0 +1,100 @@
+.sliderShowAnimation {
+  -webkit-animation-name: showSlider;
+          animation-name: showSlider;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  opacity: 0.5;
+}
+
+@-webkit-keyframes showSlider {
+  from {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.1;
+  }
+  40% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+@keyframes showSlider {
+  from {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.1;
+  }
+  40% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.sliderHideAnimation {
+  -webkit-animation-name: hideSlider;
+          animation-name: hideSlider;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  opacity: 0;
+}
+
+@-webkit-keyframes hideSlider {
+  from {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hideSlider {
+  from {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=animationSlider.css.map */

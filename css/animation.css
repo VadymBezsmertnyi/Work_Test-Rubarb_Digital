@@ -187,4 +187,180 @@
     background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
   }
 }
+
+.animationButtonFeedback {
+  background-color: #53d0fb;
+}
+
+.animationButtonFeedback:hover {
+  -webkit-animation-name: btnFeedbackAnimation;
+          animation-name: btnFeedbackAnimation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: white;
+  color: black;
+}
+
+@-webkit-keyframes btnFeedbackAnimation {
+  from {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+  10% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(73%, #53d0fb), color-stop(76%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 73%, #93e3ff 76%);
+  }
+  30% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(31%, #53d0fb), color-stop(40%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 31%, #93e3ff 40%);
+  }
+  60% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(83%, #93e3ff), color-stop(96%, white));
+    background: linear-gradient(0deg, #93e3ff 83%, white 96%);
+  }
+  70% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, #93e3ff), color-stop(59%, white));
+    background: linear-gradient(0deg, #93e3ff 46%, white 59%);
+  }
+  80% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #93e3ff), color-stop(28%, white));
+    background: linear-gradient(0deg, #93e3ff 7%, white 28%);
+  }
+  to {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, from(#93e3ff), color-stop(0%, white));
+    background: linear-gradient(0deg, #93e3ff 0%, white 0%);
+  }
+}
+
+@keyframes btnFeedbackAnimation {
+  from {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+  10% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(73%, #53d0fb), color-stop(76%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 73%, #93e3ff 76%);
+  }
+  30% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(31%, #53d0fb), color-stop(40%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 31%, #93e3ff 40%);
+  }
+  60% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(83%, #93e3ff), color-stop(96%, white));
+    background: linear-gradient(0deg, #93e3ff 83%, white 96%);
+  }
+  70% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, #93e3ff), color-stop(59%, white));
+    background: linear-gradient(0deg, #93e3ff 46%, white 59%);
+  }
+  80% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #93e3ff), color-stop(28%, white));
+    background: linear-gradient(0deg, #93e3ff 7%, white 28%);
+  }
+  to {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, from(#93e3ff), color-stop(0%, white));
+    background: linear-gradient(0deg, #93e3ff 0%, white 0%);
+  }
+}
+
+#textFooter p:hover {
+  -webkit-animation-name: textFooterAnimation;
+          animation-name: textFooterAnimation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: black;
+  color: white;
+}
+
+@-webkit-keyframes textFooterAnimation {
+  from {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(0%, white));
+    background: linear-gradient(0deg, black 0%, white 0%);
+  }
+  10% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, black), color-stop(16%, white));
+    background: linear-gradient(0deg, black 15%, white 16%);
+  }
+  30% {
+    color: white;
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(26%, black), color-stop(29%, white));
+    background: linear-gradient(0deg, black 26%, white 29%);
+  }
+  60% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(41%, black), color-stop(44%, white));
+    background: linear-gradient(0deg, black 41%, white 44%);
+  }
+  70% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(59%, black), color-stop(63%, white));
+    background: linear-gradient(0deg, black 59%, white 63%);
+  }
+  80% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(83%, black), color-stop(88%, white));
+    background: linear-gradient(0deg, black 83%, white 88%);
+  }
+  to {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(96%, black), to(white));
+    background: linear-gradient(0deg, black 96%, white 100%);
+  }
+}
+
+@keyframes textFooterAnimation {
+  from {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(0%, white));
+    background: linear-gradient(0deg, black 0%, white 0%);
+  }
+  10% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, black), color-stop(16%, white));
+    background: linear-gradient(0deg, black 15%, white 16%);
+  }
+  30% {
+    color: white;
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(26%, black), color-stop(29%, white));
+    background: linear-gradient(0deg, black 26%, white 29%);
+  }
+  60% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(41%, black), color-stop(44%, white));
+    background: linear-gradient(0deg, black 41%, white 44%);
+  }
+  70% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(59%, black), color-stop(63%, white));
+    background: linear-gradient(0deg, black 59%, white 63%);
+  }
+  80% {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(83%, black), color-stop(88%, white));
+    background: linear-gradient(0deg, black 83%, white 88%);
+  }
+  to {
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(96%, black), to(white));
+    background: linear-gradient(0deg, black 96%, white 100%);
+  }
+}
 /*# sourceMappingURL=animation.css.map */

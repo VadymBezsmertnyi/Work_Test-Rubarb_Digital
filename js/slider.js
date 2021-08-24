@@ -47,7 +47,7 @@ function serRight() {
     }
     imgSlider[item].classList.remove('hide');
     showHideIndicator(item);
-    nextImg(item);
+    addAnimation(item);
 }
 
 rightButton.addEventListener('click', () => {
@@ -61,6 +61,7 @@ leftButton.addEventListener('click', () => {
         item=2;
     }
     showHideIndicator(item);
+    addAnimationLeft(item);
     imgSlider[item].classList.remove('hide');
 });
 
@@ -89,42 +90,16 @@ onOff.forEach((btn, i) =>{
     });
 });
 
-function nextImg(item) {
-    imgSlider[item].style.opacity = '0';
+function addAnimation(item){
+    imgSlider[item].classList.remove('sliderHideAnimation');
+    imgSlider[item].classList.add('sliderShowAnimation');
     setTimeout(function () {
-        imgSlider[item].style.opacity = '0';
-        setTimeout(function () {
-            imgSlider[item].style.opacity = '0.1';
-            setTimeout(function () {
-                imgSlider[item].style.opacity = '0.2';
-                setTimeout(function () {
-                    imgSlider[item].style.opacity = '0.25';
-                    setTimeout(function () {
-                        imgSlider[item].style.opacity = '0.3';
-                        setTimeout(function () {
-                            imgSlider[item].style.opacity = '0.35';
-                            setTimeout(function () {
-                                imgSlider[item].style.opacity = '0.4';
-                                setTimeout(function () {
-                                    imgSlider[item].style.opacity = '0.45';
-                                    setTimeout(function () {
-                                        imgSlider[item].style.opacity = '0.46';
-                                        setTimeout(function () {
-                                            imgSlider[item].style.opacity = '0.47';
-                                            setTimeout(function () {
-                                                imgSlider[item].style.opacity = '0.48';
-                                                setTimeout(function () {
-                                                    imgSlider[item].style.opacity = '0.5';
-                                                },200);
-                                            },200);
-                                        },200);
-                                    },200);
-                                },200);
-                            },200);
-                        },200);
-                    },200);
-                },200);
-            },200);
-        },200);
-    },200);
+        imgSlider[item].classList.remove('sliderShowAnimation');
+        imgSlider[item].classList.add('sliderHideAnimation');
+    },4500);
+}
+
+function addAnimationLeft(){
+    imgSlider[item].classList.remove('sliderHideAnimation');
+    imgSlider[item].classList.add('sliderShowAnimation');
 }
