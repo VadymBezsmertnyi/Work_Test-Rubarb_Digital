@@ -655,6 +655,11 @@
         text-align: left;
         flex-direction: column;
     }
+    .contactIcon {
+        width: 183px;
+        display: flex;
+        align-items: center;
+    }
 
     #share {
         display: none;

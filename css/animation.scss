@@ -11,6 +11,9 @@
 
 .animationButtonReverse {
     animation-name: btnFooterAnimationReverse;
+    animation-duration: 0.5s;
+    background-color: #53d0fb;
+    color: black;
 }
 
 @keyframes btnFooterAnimation {
@@ -108,6 +111,13 @@
     color: black;
 }
 
+.animationButtonFeedbackReverse {
+    animation-name: btnFeedbackAnimationReverse;
+    animation-duration: 0.5s;
+    background-color: #53d0fb;
+    color: black;
+}
+
 @keyframes btnFeedbackAnimation {
     from {
         background: rgb(83, 208, 251);
@@ -142,6 +152,43 @@
     to {
         background: rgb(147, 227, 255);
         background: linear-gradient(0deg, rgba(147, 227, 255, 1) 0%, rgba(255, 255, 255, 1) 0%);
+    }
+}
+
+@keyframes btnFeedbackAnimationReverse {
+    from {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 0%, rgba(255, 255, 255, 1) 0%);
+    }
+
+    10% {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 7%, rgba(255, 255, 255, 1) 28%);
+    }
+
+    30% {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 46%, rgba(255, 255, 255, 1) 59%);
+    }
+
+    60% {
+        background: rgb(147, 227, 255);
+        background: linear-gradient(0deg, rgba(147, 227, 255, 1) 83%, rgba(255, 255, 255, 1) 96%);
+    }
+
+    70% {
+        background: rgb(83, 208, 251);
+        background: linear-gradient(0deg, rgba(83, 208, 251, 1) 31%, rgba(147, 227, 255, 1) 40%);
+    }
+
+    80% {
+        background: rgb(83, 208, 251);
+        background: linear-gradient(0deg, rgba(83, 208, 251, 1) 73%, rgba(147, 227, 255, 1) 76%);
+    }
+
+    to {
+        background: rgb(83, 208, 251);
+        background: linear-gradient(0deg, rgba(83, 208, 251, 1) 0%, rgba(83, 208, 251, 1) 0%);
     }
 }
 

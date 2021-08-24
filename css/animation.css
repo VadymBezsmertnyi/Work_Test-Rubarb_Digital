@@ -14,6 +14,10 @@
 .animationButtonReverse {
   -webkit-animation-name: btnFooterAnimationReverse;
           animation-name: btnFooterAnimationReverse;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: #53d0fb;
+  color: black;
 }
 
 @-webkit-keyframes btnFooterAnimation {
@@ -201,6 +205,15 @@
   color: black;
 }
 
+.animationButtonFeedbackReverse {
+  -webkit-animation-name: btnFeedbackAnimationReverse;
+          animation-name: btnFeedbackAnimationReverse;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  background-color: #53d0fb;
+  color: black;
+}
+
 @-webkit-keyframes btnFeedbackAnimation {
   from {
     background: #53d0fb;
@@ -274,6 +287,82 @@
     background: #93e3ff;
     background: -webkit-gradient(linear, left bottom, left top, from(#93e3ff), color-stop(0%, white));
     background: linear-gradient(0deg, #93e3ff 0%, white 0%);
+  }
+}
+
+@-webkit-keyframes btnFeedbackAnimationReverse {
+  from {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, from(#93e3ff), color-stop(0%, white));
+    background: linear-gradient(0deg, #93e3ff 0%, white 0%);
+  }
+  10% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #93e3ff), color-stop(28%, white));
+    background: linear-gradient(0deg, #93e3ff 7%, white 28%);
+  }
+  30% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, #93e3ff), color-stop(59%, white));
+    background: linear-gradient(0deg, #93e3ff 46%, white 59%);
+  }
+  60% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(83%, #93e3ff), color-stop(96%, white));
+    background: linear-gradient(0deg, #93e3ff 83%, white 96%);
+  }
+  70% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(31%, #53d0fb), color-stop(40%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 31%, #93e3ff 40%);
+  }
+  80% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(73%, #53d0fb), color-stop(76%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 73%, #93e3ff 76%);
+  }
+  to {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
+  }
+}
+
+@keyframes btnFeedbackAnimationReverse {
+  from {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, from(#93e3ff), color-stop(0%, white));
+    background: linear-gradient(0deg, #93e3ff 0%, white 0%);
+  }
+  10% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #93e3ff), color-stop(28%, white));
+    background: linear-gradient(0deg, #93e3ff 7%, white 28%);
+  }
+  30% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, #93e3ff), color-stop(59%, white));
+    background: linear-gradient(0deg, #93e3ff 46%, white 59%);
+  }
+  60% {
+    background: #93e3ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(83%, #93e3ff), color-stop(96%, white));
+    background: linear-gradient(0deg, #93e3ff 83%, white 96%);
+  }
+  70% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(31%, #53d0fb), color-stop(40%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 31%, #93e3ff 40%);
+  }
+  80% {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(73%, #53d0fb), color-stop(76%, #93e3ff));
+    background: linear-gradient(0deg, #53d0fb 73%, #93e3ff 76%);
+  }
+  to {
+    background: #53d0fb;
+    background: -webkit-gradient(linear, left bottom, left top, from(#53d0fb), color-stop(0%, #53d0fb));
+    background: linear-gradient(0deg, #53d0fb 0%, #53d0fb 0%);
   }
 }
 

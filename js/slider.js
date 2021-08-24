@@ -100,8 +100,6 @@ function addAnimation(item) {
             imgSlider[item].classList.remove('sliderHideAnimation');
         }
     }, 4500);
-
-    console.log(onOff[1].classList.contains('hide'));
 }
 
 function addAnimationLeft() {
